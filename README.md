@@ -7,7 +7,7 @@ This is a simple sticky notes application. Each sticky note can have a title and
 ## How to use
 #### Main Functionality
 - Add a note
-  - Click on the "Add a note" button
+  - Click on the "Add Note" button
 - Delete a note
   - Click "x" on the note
 - Save the notes
