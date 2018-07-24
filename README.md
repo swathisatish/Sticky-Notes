@@ -13,4 +13,4 @@ This is a simple sticky notes application. Each sticky note can have a title and
 - Search for notes
   - Type the title of the note in the serach bar
 
-##### Click on the link below to see it live in action. [View Demo] ()
+##### Click on the link below to see it live in action. [View Demo](http://htmlpreview.github.com/?https://github.com/swathisatish/Sticky-Notes/blob/master/sticky.html)
