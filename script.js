@@ -1,7 +1,7 @@
 
 var notes, count = 0;
 
-// ADDS a new note to the 'notes' list and sets title and content accordingly
+//** ADDS a new note to the 'notes' list and sets title and content accordingly **//
 function addNewNote(className, title, content) {
 
     // add a new note to the end of the list
@@ -32,7 +32,7 @@ function addNewNote(className, title, content) {
 }
 
 
-// SAVE the notes into local storage
+//** SAVE the notes into local storage **//
 function saveNotes() {
 
     if(document.getElementById('searchinput').value.length == 0){
@@ -53,7 +53,7 @@ function saveNotes() {
 }
 
 
-// LOAD or SHOW all notes saved in the local storage
+//** LOAD or SHOW all notes saved in the local storage **//
 function loadNotes() {
     document.getElementById('searchinput').value = "";
     notes.empty();
@@ -71,7 +71,7 @@ function loadNotes() {
 }
 
 
-// SEARCH notes saved in local storage
+//** SEARCH notes saved in local storage **//
 function search() {
     var storedNotes = localStorage.getItem("notes");
     input = document.getElementById('searchinput');
